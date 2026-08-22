@@ -1,0 +1,60 @@
+/* ============================================================
+   GLOBAL INDEX STYLES
+   ============================================================ */
+
+html {
+  margin: 0;
+  padding: 0;
+
+  min-width: 320px;
+
+  background: #020817;
+
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+
+  min-width: 320px;
+
+  min-height: 100vh;
+
+  background: #020817;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: #ffffff;
+
+  background: rgba(14, 165, 233, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020817;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+
+  background: #18324e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #234866;
+}
